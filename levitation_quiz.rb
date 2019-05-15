@@ -1,14 +1,9 @@
 
 def levitation_quiz
-  
-end
-
-
-def annoying
-    loop do 
-        puts "What's up, Doc?"
-        answer = gets.chomp
-        break if answer == "STOP"
-    end
-    puts "Okay, okay, jeez. I'll stop. Sorry."
+  loop do 
+    puts "What is the spell thay enacts levitation?"
+    spell = gets.chomp
+    break if spell == "Wingardium Leviosa"
+  end 
+  puts "You passed the quiz!"
 end
